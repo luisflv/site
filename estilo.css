@@ -1,5 +1,4 @@
-
-        body {
+ body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -10,7 +9,7 @@
             padding: 20px 0;
         }
         header img {
-            max-width: 200px;
+            max-width: 100%;
         }
         .container {
             display: flex;
@@ -24,8 +23,7 @@
             margin: 10px;
             padding: 20px;
             text-align: center;
-          
-                 width: 100%; /* Alteração para 100% de largura */
+            width: 100%; /* Alteração para 100% de largura */
             max-width: 300px; /* Largura máxima dos cards */
         }
         .card img {
@@ -36,28 +34,15 @@
             color: #fff;
             text-align: center;
             padding: 10px 0;
-          
         }
-
         p {
             text-align: center;
-           
         }
 
-        h2{
-            font-size: small;
+        @media (min-width: 768px) {
+            /* Estilo para telas maiores (a partir de 768px de largura) */
+            .card {
+                width: 30%; /* Distribuir cards em 30% da largura da tela */
+            }
         }
-
-@media screen and (min-width: 400px) {
-  body {
-    background-color: lightgreen;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  body {
-    background-color: lavender;
-  }
-
-
   
