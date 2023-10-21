@@ -48,12 +48,16 @@
             font-size: small;
         }
 
- @media (min-width: 768px) {
-            /* Estilo para telas maiores (a partir de 768px de largura) */
-            .card {
-                width: 30%; /* Distribuir cards em 30% da largura da tela */
-            }
-        }
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lavender;
+  }
 
 
   
