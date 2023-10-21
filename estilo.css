@@ -1,48 +1,39 @@
- body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            text-align: center;
-            padding: 20px 0;
-        }
-        header img {
-            max-width: 100%;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        .card {
-            background-color: #fff;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            margin: 10px;
-            padding: 20px;
-            text-align: center;
-            width: 100%; /* Alteração para 100% de largura */
-            max-width: 300px; /* Largura máxima dos cards */
-        }
-        .card img {
-            max-width: 100px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        p {
-            text-align: center;
-        }
-
-        @media (min-width: 768px) {
-            /* Estilo para telas maiores (a partir de 768px de largura) */
-            .card {
-                width: 30%; /* Distribuir cards em 30% da largura da tela */
-            }
-        }
-  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+header img {
+    max-width: 200px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+.card img {
+    max-width: 100px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+p {
+    text-align: center; /* Centraliza o parágrafo */
+}
