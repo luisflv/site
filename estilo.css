@@ -24,7 +24,9 @@
             margin: 10px;
             padding: 20px;
             text-align: center;
-            width: 250px;
+          
+                 width: 100%; /* Alteração para 100% de largura */
+            max-width: 300px; /* Largura máxima dos cards */
         }
         .card img {
             max-width: 100px;
@@ -45,4 +47,13 @@
         h2{
             font-size: small;
         }
+
+ @media (min-width: 768px) {
+            /* Estilo para telas maiores (a partir de 768px de largura) */
+            .card {
+                width: 30%; /* Distribuir cards em 30% da largura da tela */
+            }
+        }
+
+
   
