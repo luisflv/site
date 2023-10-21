@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F6F9FF;
+    text-align: center;
+    color: #434343;
+    font-size: 16px;
+    line-height: 1.6;
+}
+header {
+    padding: 20px;
+}
+header img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+main {
+    padding: 20px;
+}
+p {
+    margin: 20px 0;
+}
+.imgCards{
+    width: 50px;
+    height: 50px;
+   ;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+}
+.card h2 {
+    font-size: 1.5rem;
+}
+.card p {
+    font-size: 1rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+button{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px 0;
+}
+.buttonBd{
+    background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+.buttonLp {
+    background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+.buttonDv {
+    background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+}
+.buttonFl {
+    background: linear-gradient(to right, #37a70a, #c1e076);
+}
