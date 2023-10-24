@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 header {
-    padding: 15px;
+    padding: 10px;
 }
 header img {
     max-width: 100%;
@@ -25,7 +25,7 @@ main {
     padding: 10px;
 }
 p {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 .imgCards{
     width: 50px;
