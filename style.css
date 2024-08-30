@@ -1,0 +1,54 @@
+ 
+    /* Estilo para aumentar a fonte e o padding do navbar */
+    .navbar {
+        padding-top: 1rem; /* Aumenta o espaçamento superior */
+        padding-bottom: 1rem; /* Aumenta o espaçamento inferior */
+      }
+  
+      .navbar-brand, .nav-link {
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte */
+      }
+  
+      .navbar-nav .nav-item {
+        margin-left: 15px; /* Aumenta o espaço entre os itens */
+      }
+      
+      .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+      }
+  
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+  
+      .card-img-top {
+        transition: transform 0.3s ease;
+      }
+  
+      .btn-group {
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      .btn-group .btn {
+        flex: 1;
+        margin: 0 2px;
+      }
+  
+      /* Estilo para a seção de conteúdo */
+  .content-section {
+  
+    padding: 50px 0; /* Espaçamento vertical */
+    text-align: center; /* Alinhamento centralizado */
+  }
+  
+  /* Estilo para a imagem redonda */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
